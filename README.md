@@ -86,7 +86,7 @@ def minimax(game)
         possible_game = game.get_new_state(move)
         scores.push minimax(possible_game)
         moves.push move
-    end
+
 
     # Do the min or the max calculation
     if game.active_turn == @player
@@ -99,8 +99,7 @@ def minimax(game)
         min_score_index = scores.each_with_index.min[1]
         @choice = moves[min_score_index]
         return scores[min_score_index]
-    end
-end
+    end 
 
 
 
@@ -274,8 +273,9 @@ if __name__ == "__main__":
     main()
     ```
 ## Output :
-![370978198-89eff771-6d5c-49fd-854f-8145ac506668](https://github.com/user-attachments/assets/c2dcb203-9fe7-4bb3-8e45-f15bd5a0d2c9)
 
+
+![370978198-89eff771-6d5c-49fd-854f-8145ac506668](https://github.com/user-attachments/assets/0688173e-bc24-4c40-93c5-0c59a8936e38)
 
 
 
