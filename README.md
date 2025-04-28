@@ -101,7 +101,7 @@ def minimax(game)
         return scores[min_score_index]
     end
 end
-```
+
 
 
 
@@ -274,6 +274,9 @@ if __name__ == "__main__":
     main()
     ```
 ## Output :
+![370978198-89eff771-6d5c-49fd-854f-8145ac506668](https://github.com/user-attachments/assets/c2dcb203-9fe7-4bb3-8e45-f15bd5a0d2c9)
+
+
 
 
 <hr>
