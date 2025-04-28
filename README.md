@@ -104,7 +104,7 @@ def minimax(game)
 
 
 
-<hr>
+
 <h2>Sample Input and Output</h2>
 
 ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/6b668685-8bcc-43c5-b5c2-ddd43f3da84a)
@@ -278,7 +278,5 @@ if __name__ == "__main__":
 ![370978198-89eff771-6d5c-49fd-854f-8145ac506668](https://github.com/user-attachments/assets/0688173e-bc24-4c40-93c5-0c59a8936e38)
 
 
-
-<hr>
 <h2>Result:</h2>
 <p>Thus,Implementation of  Minimax Search Algorithm for a Simple TIC-TAC-TOE game wasa done successfully.</p>
