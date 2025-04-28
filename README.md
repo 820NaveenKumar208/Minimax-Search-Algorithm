@@ -97,9 +97,6 @@ def minimax(game)
         min_score_index = scores.each_with_index.min[1]
         @choice = moves[min_score_index]
         return scores[min_score_index]
-    end
-end
-
 <hr>
 <h2>Sample Input and Output</h2>
 
